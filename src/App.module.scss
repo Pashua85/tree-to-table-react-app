@@ -1,0 +1,18 @@
+.header {
+  min-height: 80px;
+}
+
+.headerContent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select {
+  min-width: 200px;
+}

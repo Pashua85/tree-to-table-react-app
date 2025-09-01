@@ -1,0 +1,17 @@
+.container {
+  padding-top: 20px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.table {
+  :global {
+    .ant-table-content {
+      overflow-y: auto;
+    }
+
+    .ant-table-cell {
+      vertical-align: top;
+    }
+  } 
+}
